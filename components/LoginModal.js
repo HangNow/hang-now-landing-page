@@ -18,39 +18,23 @@ export function LoginModal({ open, onClose, onSuccess }) {
         </p>
         <b>Inscris toi!</b>
       </DialogTitle>
-      <form name="email" action="/success" method="POST" data-netlify="true" netlify>
-        <input type="hidden" name="form-name" value="email" />
-
-        <DialogContent>
-          <DialogContentText>
-            Utilise ton email pour te connecter et pouvoir entrer en communication
-            avec la personne qui organise l'évènement.
-          </DialogContentText>
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            label="Email"
-            type="email"
-            fullWidth
-            variant="standard"
-            name="email"
-          />
-        </DialogContent>
-        <DialogActions>
-          <Button autoFocus onClick={onClose}>
-            Fermer
-          </Button>
-          <Button
-            onClick={() => {
-              mixpanel.track('Sign up');
-            }}
-            type="submit"
-            autoFocus
-          >
-            Envoyer
-          </Button>
-        </DialogActions>
+      <form name="contact" action="/success" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <label htmlFor="yourname">Your Name:</label>
+          <input type="text" name="name" id="yourname" />
+        </p>
+        <p>
+          <label htmlFor="youremail">Your Email: </label>{' '}
+          <input type="email" name="email" id="youremail" />
+        </p>
+        <p>
+          <label htmlFor="yourmessage">Message: </label>
+          <textarea name="message" id="yourmessage"></textarea>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
       </form>
     </Dialog>
   );

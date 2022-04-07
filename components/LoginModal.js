@@ -23,7 +23,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
         }}
         netlify
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="email" />
 
         <DialogContent>
           <DialogContentText>

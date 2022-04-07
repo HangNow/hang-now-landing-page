@@ -38,7 +38,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
           </Button>
           <Button
             onClick={() => {
-              mixpanel.track('sign-in');
+              mixpanel.track('Sign up');
               onClose();
             }}
             type="submit"

@@ -13,16 +13,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
   return (
     <Dialog onClose={onClose} open={open}>
       <DialogTitle>Connect toi!</DialogTitle>
-      <form
-        name="email"
-        action="/success"
-        method="POST"
-        data-netlify="true"
-        onSubmit={() => {
-          mixpanel.track('submit-email');
-        }}
-        netlify
-      >
+      <form name="email" action="/success" method="POST" data-netlify="true" netlify>
         <input type="hidden" name="form-name" value="email" />
 
         <DialogContent>
@@ -45,7 +36,14 @@ export function LoginModal({ open, onClose, onSuccess }) {
           <Button autoFocus onClick={onClose}>
             Fermer
           </Button>
-          <Button type="submit" autoFocus onClick={onClose}>
+          <Button
+            onClick={() => {
+              mixpanel.track('sign-in');
+              onClose();
+            }}
+            type="submit"
+            autoFocus
+          >
             Envoyer
           </Button>
         </DialogActions>

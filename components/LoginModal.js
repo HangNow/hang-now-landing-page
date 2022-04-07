@@ -18,10 +18,8 @@ export function LoginModal({ open, onClose, onSuccess }) {
         action="/success"
         method="POST"
         data-netlify="true"
-        onSubmit={(e) => {
-          // e.preventDefault();
+        onSubmit={() => {
           mixpanel.track('submit-email');
-          return false;
         }}
         netlify
       >

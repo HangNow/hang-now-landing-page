@@ -1,7 +1,9 @@
+import { Typography } from '@mui/material';
 import mixpanel from 'mixpanel-browser';
 import React, { useEffect } from 'react';
 import { BadNewsModal } from '../components/BadNewsModal';
 import { LoginModal } from '../components/LoginModal';
+import Peoples from '../components/Peoples';
 
 export default function Home() {
   const [open, setOpen] = React.useState(false);
@@ -85,7 +87,9 @@ export default function Home() {
             onClick={onClickEvent}
             className="button-join flex-row-vcenter-hcenter clip-contents"
           >
-            <span className="txt-860">Rejoins l’evenement</span>
+            <Typography component="span" color="white">
+              Rejoins l’evenement
+            </Typography>
           </button>
         </div>
       </div>
@@ -123,7 +127,9 @@ export default function Home() {
             onClick={onClickEvent}
             className="button-join flex-row-vcenter-hcenter clip-contents"
           >
-            <span className="txt-860">Rejoins l’evenement</span>
+            <Typography component="span" color="white">
+              Rejoins l’evenement
+            </Typography>
           </button>
         </div>
       </div>
@@ -132,9 +138,9 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <p className="txt-8106 flex-hcenter">
+          <Typography variant="h5">
             Parle buisness et immobilier dans un café
-          </p>
+          </Typography>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -142,14 +148,16 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">300m from you</p>
+              <Typography>300m from you</Typography>
             </div>
-            <div className="peoplelist flex-row-vcenter-hstart">
-              <p className="txt-298">4/6</p>
-              <div className="group-102">
-                <p className="txt-437">+3</p>
-              </div>
-            </div>
+            <Peoples
+              pictures={[
+                'https://mui.com/static/images/avatar/1.jpg',
+                'https://mui.com/static/images/avatar/2.jpg',
+              ]}
+              max={10}
+              current={4}
+            />
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
@@ -166,7 +174,9 @@ export default function Home() {
             onClick={onClickEvent}
             className="button-join flex-row-vcenter-hcenter clip-contents"
           >
-            <span className="txt-860">Rejoins l’evenement</span>
+            <Typography component="span" color="white">
+              Rejoins l’evenement
+            </Typography>
           </button>
         </div>
       </div>

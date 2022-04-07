@@ -24,6 +24,8 @@ export function LoginModal({ open, onClose, onSuccess }) {
         }}
         netlify
       >
+        <input type="hidden" name="form-name" value="contact" />
+
         <DialogContent>
           <DialogContentText>
             Utilise ton email pour te connecter et pouvoir entrer en communication

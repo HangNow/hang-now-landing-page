@@ -14,13 +14,8 @@ export function LoginModal({ open, onClose, onSuccess }) {
       <DialogTitle>Connect toi!</DialogTitle>
       <form
         // set no redirection to form
-        action="#"
-        method="POST"
         onSubmit={(e) => {
-          e.preventDefault();
-
-          onSuccess();
-
+          // e.preventDefault();
           return false;
         }}
         name="email-login"

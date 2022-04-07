@@ -15,6 +15,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
       <DialogTitle>Connect toi!</DialogTitle>
       <form
         name="email"
+        action="/success"
         method="POST"
         data-netlify="true"
         onSubmit={(e) => {

@@ -8,6 +8,7 @@ export default function Peoples({ pictures, current, max }) {
       sx={{
         display: 'flex',
         alignItems: 'center',
+        gap: 1,
       }}
     >
       <Typography>

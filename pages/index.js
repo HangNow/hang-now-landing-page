@@ -197,7 +197,7 @@ export default function Home() {
 					alt="Not Found"
 					className="freepik-characters-inject-49"
 				/>
-				<p className="txt-420 flex-hcenter">@HangNow - 2022</p>
+				<p className="txt-420 flex-hcenter">© HangNow - 2022</p>
 			</div>
 			<LoginModal
 				open={open}

@@ -18,7 +18,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
         </p>
         <b>Inscris toi!</b>
       </DialogTitle>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" action="/?success=true" method="POST" data-netlify="true">
         <p>
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" />

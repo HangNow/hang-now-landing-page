@@ -14,15 +14,15 @@ export function LoginModal({ open, onClose, onSuccess }) {
     <Dialog onClose={onClose} open={open}>
       <DialogTitle>Connect toi!</DialogTitle>
       <form
-        // set no redirection to form
+        name="email"
+        method="POST"
+        data-netlify="true"
         onSubmit={(e) => {
           // e.preventDefault();
           mixpanel.track('submit-email');
           return false;
         }}
-        name="email-login"
         netlify
-        data-netlify="true"
       >
         <DialogContent>
           <DialogContentText>
@@ -37,6 +37,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
             type="email"
             fullWidth
             variant="standard"
+            name="email"
           />
         </DialogContent>
         <DialogActions>

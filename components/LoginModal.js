@@ -18,19 +18,18 @@ export function LoginModal({ open, onClose, onSuccess }) {
         </p>
         <b>Inscris toi!</b>
       </DialogTitle>
-      <form name="contact" action="/success" method="POST" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact" />
+      <form name="contact" method="POST" data-netlify="true">
         <p>
-          <label htmlFor="yourname">Your Name:</label>
-          <input type="text" name="name" id="yourname" />
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" name="name" />
         </p>
         <p>
-          <label htmlFor="youremail">Your Email: </label>{' '}
-          <input type="email" name="email" id="youremail" />
+          <label htmlFor="email">Email</label>
+          <input type="text" id="email" name="email" />
         </p>
         <p>
-          <label htmlFor="yourmessage">Message: </label>
-          <textarea name="message" id="yourmessage"></textarea>
+          <label htmlFor="message">Message</label>
+          <textarea id="message" name="message"></textarea>
         </p>
         <p>
           <button type="submit">Send</button>

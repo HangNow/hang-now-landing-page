@@ -2,7 +2,6 @@ import { TextField, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
-
 export default function Contact() {
   const [success, setSuccess] = useState(false);
   const router = useRouter();
@@ -24,8 +23,10 @@ export default function Contact() {
           Hang<span className="txt-8622">Now!</span>
         </p>
       </div>
-      <Typography sx={{ mb: 2 }} variant="h4">
-        Inscris toi!
+      <Typography variant="h4">Inscris toi!</Typography>
+      <Typography sx={{ mb: 2 }}>
+        Afin de rentrer en communication avec l'organisateur, nous avons besoin de
+        tes coordonnées.
       </Typography>
       <form
         className="contact-form"
@@ -35,7 +36,14 @@ export default function Contact() {
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <TextField fullWidth id="name" name="name" type="text" label="Prénom" />
+        <TextField
+          color="primary"
+          fullWidth
+          id="name"
+          name="name"
+          type="text"
+          label="Prénom"
+        />
         <TextField fullWidth id="email" name="email" type="text" label="Email" />
         <button
           type="submit"

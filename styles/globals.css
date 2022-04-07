@@ -13,6 +13,12 @@ a {
 
 * {
   box-sizing: border-box;
+
+  --primary-color: #ff8e3c;
+}
+
+body {
+  background-color: #eff0f3;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=M PLUS 2:wght@800&display=swap');
@@ -80,13 +86,11 @@ p {
   padding: 12px;
   max-width: 420px;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 1);
 }
 
 .header {
   margin-bottom: 24px;
   box-sizing: border-box;
-  background-color: rgba(255, 255, 255, 1);
   width: 100%;
 }
 
@@ -101,7 +105,7 @@ p {
 }
 
 .txt-8622 {
-  color: rgba(249, 115, 22, 1);
+  color: var(--primary-color);
 }
 
 .frame-49220 {
@@ -127,7 +131,7 @@ p {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   line-height: 143%;
-  color: rgba(249, 115, 22, 1);
+  color: var(--primary-color);
   word-wrap: break-word;
 }
 
@@ -193,7 +197,7 @@ p {
   padding: 1px 7px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   height: 100%;
 }
@@ -295,7 +299,7 @@ p {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   line-height: 150%;
-  color: rgba(249, 115, 22, 1);
+  color: var(--primary-color);
   word-wrap: break-word;
 }
 
@@ -313,7 +317,7 @@ p {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   line-height: 150%;
-  color: rgba(249, 115, 22, 1);
+  color: var(--primary-color);
   word-wrap: break-word;
 }
 
@@ -321,7 +325,7 @@ p {
   padding: 12px 16px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   width: 100%;
   border: none;
@@ -369,7 +373,7 @@ p {
   padding: 1px 7px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   height: 100%;
 }
@@ -481,7 +485,7 @@ p {
   font-family: Poppins, sans-serif;
   font-weight: 500;
   line-height: 150%;
-  color: rgba(249, 115, 22, 1);
+  color: var(--primary-color);
   word-wrap: break-word;
 }
 
@@ -498,7 +502,7 @@ p {
   padding: 7px 15px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   width: 100%;
 }
@@ -541,7 +545,7 @@ p {
   padding: 1px 7px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   height: 100%;
 }
@@ -651,7 +655,7 @@ p {
   padding: 7px 15px;
   box-sizing: border-box;
   border-radius: 36px;
-  background-color: rgba(249, 115, 22, 1);
+  background-color: var(--primary-color);
   box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
   width: 100%;
 }

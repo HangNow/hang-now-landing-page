@@ -47,7 +47,7 @@ export default function Home() {
               Utilise une app simple et efficace
             </Typography>
             <Typography component="li">
-            Rejoins les gens qui sont comme toi
+              Rejoins les gens qui sont comme toi
             </Typography>
           </ul>
           <img
@@ -76,7 +76,7 @@ export default function Home() {
               pictures={[
                 'https://i.imgur.com/DWcrWXJ.jpeg',
                 'https://i.imgur.com/lPPHdY0.jpeg',
-                ]}
+              ]}
               max={7}
               current={2}
             />
@@ -88,7 +88,7 @@ export default function Home() {
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Beer</p>
             </div>
-            <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
+            <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Bar</p>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function Home() {
               pictures={[
                 'https://i.imgur.com/Uk63uxt.jpeg',
                 'https://i.imgur.com/shn7hbp.jpeg',
-                ]}
+              ]}
               max={8}
               current={4}
             />
@@ -130,7 +130,7 @@ export default function Home() {
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Sport</p>
             </div>
-            <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
+            <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Snow</p>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
               pictures={[
                 'https://mui.com/static/images/avatar/1.jpg',
                 'https://mui.com/static/images/avatar/2.jpg',
-                ]}
+              ]}
               max={5}
               current={3}
             />
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Business</p>
             </div>
-            <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
+            <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
               <p className="txt-121">Cafe</p>
             </div>
           </div>

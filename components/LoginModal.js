@@ -7,6 +7,7 @@ import {
   DialogTitle,
   TextField,
 } from '@mui/material';
+import mixpanel from 'mixpanel-browser';
 
 export function LoginModal({ open, onClose, onSuccess }) {
   return (
@@ -16,6 +17,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
         // set no redirection to form
         onSubmit={(e) => {
           // e.preventDefault();
+          mixpanel.track('submit-email');
           return false;
         }}
         name="email-login"

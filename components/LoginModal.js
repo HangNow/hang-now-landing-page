@@ -25,6 +25,7 @@ export function LoginModal({ open, onClose, onSuccess }) {
         }}
         name="email-login"
         netlify
+        data-netlify="true"
       >
         <DialogContent>
           <DialogContentText>

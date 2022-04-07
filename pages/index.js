@@ -39,15 +39,17 @@ export default function Home() {
         </Typography>
         <div className="frame-49221 flex-row-vstart-hstart">
           <ul className="txt-834">
-            <Typography component="li">
+          <Typography component="li">
               Rencontre rapidement des personnes autour de toi
             </Typography>
-            <Typography component="li">Laisse les gens venir à toi</Typography>
             <Typography component="li">
-              Utilise une app simple et efficace
+              Créer des évènements et laisse les gens venir à toi
             </Typography>
             <Typography component="li">
-              Rejoins les gens qui sont comme toi
+              Rejoins des évènements en toute simplicité
+            </Typography>
+            <Typography component="li">
+              Trouve des gens aux mêmes centres d'intérêts que toi
             </Typography>
           </ul>
           <img
@@ -62,7 +64,7 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <Typography variant="h5">Rejoins nous pour boire une bière!</Typography>
+          <Typography variant="h5">Rejoins nous pour boire une bière! 🍻</Typography>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -83,13 +85,13 @@ export default function Home() {
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Chill</p>
+              <p className="txt-121">👓 Chill</p>
             </div>
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Beer</p>
+              <p className="txt-121">🍺 Beer</p>
             </div>
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Bar</p>
+              <p className="txt-121">🍸 Bar</p>
             </div>
           </div>
           <button
@@ -128,10 +130,10 @@ export default function Home() {
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Sport</p>
+              <p className="txt-121">🏃‍♂️ Sport</p>
             </div>
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Snow</p>
+              <p className="txt-121">👓 Chill</p>
             </div>
           </div>
           <button
@@ -172,10 +174,10 @@ export default function Home() {
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Business</p>
+              <p className="txt-121">💸 Business</p>
             </div>
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Cafe</p>
+              <p className="txt-121">☕ Cafe</p>
             </div>
           </div>
           <button

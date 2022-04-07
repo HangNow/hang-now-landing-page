@@ -34,14 +34,18 @@ export default function Home() {
         </div>
       </div>
       <div className="frame-49223 flex-col-hstart-vstart">
-        <p className="txt-283">Fait des rencontres sans prises de tête en LIVE</p>
+        <Typography variant="h4">
+          Fait des rencontres sans prises de tête en LIVE
+        </Typography>
         <div className="frame-49221 flex-row-vstart-hstart">
           <ul className="txt-834">
-            <li>Rencontre rapidement des personnes autour de toi</li>
-            <li>Laisse les gens venir à toi</li>
-            <li>
+            <Typography component="li">
+              Rencontre rapidement des personnes autour de toi
+            </Typography>
+            <Typography component="li">Laisse les gens venir à toi</Typography>
+            <Typography component="li">
               Utilise une app simple et efficace Rejoins les gens qui sont comme toi
-            </li>
+            </Typography>
           </ul>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zc52p61vvi-61%3A5513?alt=media&token=5fcdface-60bf-4f28-abb4-c6ab9998f1fd"
@@ -55,7 +59,7 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <p className="txt-8106 flex-hcenter">Rejoins moi pour boire une bière!</p>
+          <Typography variant="h5">Rejoins moi pour boire une bière!</Typography>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -63,7 +67,7 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">235m from you</p>
+              <Typography>235m from you</Typography>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
               <p className="txt-298">4/9 </p>
@@ -98,7 +102,7 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <p className="txt-8106 flex-hcenter">Partie de pétanque</p>
+          <Typography variant="h5">Partie de pétanque</Typography>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -106,7 +110,7 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">200m from you</p>
+              <Typography>200m from you</Typography>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
               <p className="txt-298">10/15</p>

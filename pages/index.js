@@ -27,14 +27,13 @@ export default function Home() {
         </div>
       </div>
       <div className="frame-49223 flex-col-hstart-vstart">
-        <p className="txt-283">Fait des rencontres sans prises de tête en LIVE</p>
+        <p className="txt-283">Fais des rencontres sans prises de tête en LIVE</p>
         <div className="frame-49221 flex-row-vstart-hstart">
           <ul className="txt-834">
             <li>Rencontre rapidement des personnes autour de toi</li>
             <li>Laisse les gens venir à toi</li>
-            <li>
-              Utilise une app simple et efficace Rejoins les gens qui sont comme toi
-            </li>
+            <li>Utilise une app simple et efficace</li>
+            <li>Rejoins les gens qui sont comme toi</li>
           </ul>
           <img
             src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zc52p61vvi-61%3A5513?alt=media&token=5fcdface-60bf-4f28-abb4-c6ab9998f1fd"
@@ -48,7 +47,7 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <p className="txt-8106 flex-hcenter">Rejoins moi pour boire une bière!</p>
+          <p className="txt-8106 flex-hcenter">Rejoins nous pour boire une bière!</p>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -56,10 +55,10 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">235m from you</p>
+              <p className="txt-402 flex-hcenter">235m de vous</p>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
-              <p className="txt-298">4/9 </p>
+              <p className="txt-298">5/9 </p>
               <div className="group-10">
                 <p className="txt-437">+3</p>
               </div>
@@ -89,7 +88,7 @@ export default function Home() {
           <div className="badgetype flex-row-vstart-hstart"></div>
         </div>
         <div className="container flex-col-hstart-vstart">
-          <p className="txt-8106 flex-hcenter">Partie de pétanque</p>
+          <p className="txt-8106 flex-hcenter">Descentes en luge</p>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
               <img
@@ -97,12 +96,12 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">200m from you</p>
+              <p className="txt-402 flex-hcenter">512m de vous</p>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
-              <p className="txt-298">10/15</p>
+              <p className="txt-298">10/13</p>
               <div className="group-101">
-                <p className="txt-437">+3</p>
+                <p className="txt-437">+8</p>
               </div>
             </div>
           </div>
@@ -111,7 +110,7 @@ export default function Home() {
               <p className="txt-121">Sport</p>
             </div>
             <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Beer</p>
+              <p className="txt-121">Snow</p>
             </div>
           </div>
           <button
@@ -128,7 +127,7 @@ export default function Home() {
         </div>
         <div className="container flex-col-hstart-vstart">
           <p className="txt-8106 flex-hcenter">
-            Parle buisness et immobilier dans un café
+            Discussion buisness et immobilier autour d’un petit café
           </p>
           <div className="infos flex-row-vcenter-hsb">
             <div className="frame-49220 flex-row-vcenter-hcenter">
@@ -137,24 +136,21 @@ export default function Home() {
                 alt="Not Found"
                 className="location-pin-24-outline"
               />
-              <p className="txt-402 flex-hcenter">300m from you</p>
+              <p className="txt-402 flex-hcenter">150m de vous</p>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
               <p className="txt-298">4/6</p>
               <div className="group-102">
-                <p className="txt-437">+3</p>
+                <p className="txt-437">+2</p>
               </div>
             </div>
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Buisness</p>
-            </div>
-            <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Sport</p>
+              <p className="txt-121">Business</p>
             </div>
             <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Sport</p>
+              <p className="txt-121">Cafe</p>
             </div>
           </div>
           <button

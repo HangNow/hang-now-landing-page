@@ -8,7 +8,7 @@ import {
 
 export function Modal({ open, onClose }) {
   return (
-    <Dialog onClose={onClose} open={open}>
+    <Dialog onClose={onClose} open={false}>
       <DialogTitle>Set backup account</DialogTitle>
       <DialogContent>
         <TextField id="firstname" label="Prénom" variant="outlined" />

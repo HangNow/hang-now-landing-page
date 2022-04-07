@@ -42,9 +42,14 @@ export default function Home() {
 						<Typography component="li">
 							Rencontre rapidement des personnes autour de toi
 						</Typography>
-						<Typography component="li">Laisse les gens venir à toi</Typography>
 						<Typography component="li">
-							Utilise une app simple et efficace Rejoins les gens qui sont comme toi
+							Créer des évènements et laisse les gens venir à toi
+						</Typography>
+						<Typography component="li">
+							Rejoins des évènements en toute simplicité
+						</Typography>
+						<Typography component="li">
+							Trouve des gens aux mêmes centres d'intérêts que toi
 						</Typography>
 					</ul>
 					<img
@@ -59,7 +64,7 @@ export default function Home() {
 					<div className="badgetype flex-row-vstart-hstart"></div>
 				</div>
 				<div className="container flex-col-hstart-vstart">
-					<Typography variant="h5">Rejoins moi pour boire une bière!</Typography>
+					<Typography variant="h5">Rejoins nous pour boire une bière! 🍻</Typography>
 					<div className="infos flex-row-vcenter-hsb">
 						<div className="frame-49220 flex-row-vcenter-hcenter">
 							<img
@@ -67,24 +72,26 @@ export default function Home() {
 								alt="Not Found"
 								className="location-pin-24-outline"
 							/>
-							<Typography>235m from you</Typography>
+							<Typography>235m de vous</Typography>
 						</div>
-						<div className="peoplelist flex-row-vcenter-hstart">
-							<p className="txt-298">5/9 </p>
-							<div className="group-10">
-								<p className="txt-437">+3</p>
-							</div>
-						</div>
+						<Peoples
+							pictures={[
+								'https://i.imgur.com/DWcrWXJ.jpeg',
+								'https://i.imgur.com/lPPHdY0.jpeg',
+							]}
+							max={7}
+							current={2}
+						/>
 					</div>
 					<div className="tags flex-row-vcenter-hcenter">
 						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Chill</p>
+							<p className="txt-121">👓 Chill</p>
 						</div>
 						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Beer</p>
+							<p className="txt-121">🍺 Beer</p>
 						</div>
-						<div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Bar</p>
+						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+							<p className="txt-121">🍸 Bar</p>
 						</div>
 					</div>
 					<button
@@ -110,21 +117,23 @@ export default function Home() {
 								alt="Not Found"
 								className="location-pin-24-outline"
 							/>
-							<Typography>200m from you</Typography>
+							<Typography>200m de vous</Typography>
 						</div>
-						<div className="peoplelist flex-row-vcenter-hstart">
-							<p className="txt-298">10/13</p>
-							<div className="group-101">
-								<p className="txt-437">+8</p>
-							</div>
-						</div>
+						<Peoples
+							pictures={[
+								'https://i.imgur.com/Uk63uxt.jpeg',
+								'https://i.imgur.com/shn7hbp.jpeg',
+							]}
+							max={8}
+							current={4}
+						/>
 					</div>
 					<div className="tags flex-row-vcenter-hcenter">
 						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Sport</p>
+							<p className="txt-121">🏃‍♂️ Sport</p>
 						</div>
-						<div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Snow</p>
+						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+							<p className="txt-121">👓 Chill</p>
 						</div>
 					</div>
 					<button
@@ -143,7 +152,7 @@ export default function Home() {
 				</div>
 				<div className="container flex-col-hstart-vstart">
 					<Typography variant="h5">
-						Parle buisness et immobilier dans un café
+						Discussion business et immobilier dans un café
 					</Typography>
 					<div className="infos flex-row-vcenter-hsb">
 						<div className="frame-49220 flex-row-vcenter-hcenter">
@@ -152,23 +161,23 @@ export default function Home() {
 								alt="Not Found"
 								className="location-pin-24-outline"
 							/>
-							<Typography>300m from you</Typography>
+							<Typography>300m de vous</Typography>
 						</div>
 						<Peoples
 							pictures={[
 								'https://mui.com/static/images/avatar/1.jpg',
 								'https://mui.com/static/images/avatar/2.jpg',
 							]}
-							max={10}
-							current={4}
+							max={5}
+							current={3}
 						/>
 					</div>
 					<div className="tags flex-row-vcenter-hcenter">
 						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Business</p>
+							<p className="txt-121">💸 Business</p>
 						</div>
-						<div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-							<p className="txt-121">Cafe</p>
+						<div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+							<p className="txt-121">☕ Cafe</p>
 						</div>
 					</div>
 					<button

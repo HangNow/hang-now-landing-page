@@ -7,6 +7,7 @@ import {
 	DialogTitle,
 	TextField,
 } from '@mui/material';
+import mixpanel from 'mixpanel-browser';
 
 export function LoginModal({ open, onClose, onSuccess }) {
 	return (

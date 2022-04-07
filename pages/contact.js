@@ -1,3 +1,4 @@
+import { TextField, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 
 export default function Contact() {
@@ -10,26 +11,39 @@ export default function Contact() {
   }, []);
 
   return (
-    <>
-      {success && <p style={{ color: 'green' }}>Successfully submitted form!</p>}
-      <form name="contact" method="POST" action="/?success=true" data-netlify="true">
+    <div className="iphone-11-pro-x-1 flex-col-hstart-vstart clip-contents">
+      <div className="header flex-row-vcenter-hsb">
+        <p className="txt-862">
+          Hang<span className="txt-8622">Now!</span>
+        </p>
+        <div className="frame-49220 flex-row-vcenter-hcenter">
+          <button className="button-join flex-row-vcenter-hcenter clip-contents">
+            <span className="txt-860">Login</span>
+          </button>
+        </div>
+      </div>
+      <Typography sx={{ mb: 2 }} variant="h4">
+        Inscrit toi!
+      </Typography>
+      <form
+        className="contact-form"
+        name="contact"
+        method="POST"
+        action="badnews"
+        data-netlify="true"
+      >
         <input type="hidden" name="form-name" value="contact" />
-        <p>
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" />
-        </p>
-        <p>
-          <label htmlFor="email">Email</label>
-          <input type="text" id="email" name="email" />
-        </p>
-        <p>
-          <label htmlFor="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+        <TextField fullWidth id="name" name="name" type="text" label="Prénom" />
+        <TextField fullWidth id="email" name="email" type="text" label="Email" />
+        <button
+          type="submit"
+          className="button-join flex-row-vcenter-hcenter clip-contents"
+        >
+          <Typography component="span" color="white">
+            Rejoins l’evenement
+          </Typography>
+        </button>
       </form>
-    </>
+    </div>
   );
 }

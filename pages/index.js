@@ -70,7 +70,7 @@ export default function Home() {
               <Typography>235m from you</Typography>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
-              <p className="txt-298">4/9 </p>
+              <p className="txt-298">5/9 </p>
               <div className="group-10">
                 <p className="txt-437">+3</p>
               </div>
@@ -113,9 +113,9 @@ export default function Home() {
               <Typography>200m from you</Typography>
             </div>
             <div className="peoplelist flex-row-vcenter-hstart">
-              <p className="txt-298">10/15</p>
+              <p className="txt-298">10/13</p>
               <div className="group-101">
-                <p className="txt-437">+3</p>
+                <p className="txt-437">+8</p>
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ export default function Home() {
               <p className="txt-121">Sport</p>
             </div>
             <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Beer</p>
+              <p className="txt-121">Snow</p>
             </div>
           </div>
           <button
@@ -165,13 +165,10 @@ export default function Home() {
           </div>
           <div className="tags flex-row-vcenter-hcenter">
             <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Buisness</p>
-            </div>
-            <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Sport</p>
+              <p className="txt-121">Business</p>
             </div>
             <div className="badge-4 flex-row-vcenter-hcenter clip-contents">
-              <p className="txt-121">Sport</p>
+              <p className="txt-121">Cafe</p>
             </div>
           </div>
           <button

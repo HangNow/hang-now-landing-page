@@ -1,14 +1,19 @@
 import mixpanel from 'mixpanel-browser';
 import React, { useEffect } from 'react';
-import { Modal } from '../components/Modal';
+import { BadNewsModal } from '../components/BadNewsModal';
+import { LoginModal } from '../components/LoginModal';
 
 export default function Home() {
+  const [open, setOpen] = React.useState(false);
+  const [openBadNews, setOpenBadNews] = React.useState(false);
+
   useEffect(() => {
     mixpanel.track('Open page');
   }, []);
 
   const onClickEvent = () => {
     mixpanel.track('Open event');
+    setOpen(true);
   };
 
   return (
@@ -174,7 +179,12 @@ export default function Home() {
         />
         <p className="txt-420 flex-hcenter">@HangNow - 2022</p>
       </div>
-      <Modal open={true} />
+      <LoginModal
+        open={open}
+        onClose={() => setOpen(false)}
+        onSuccess={() => setOpenBadNews(true)}
+      />
+      <BadNewsModal open={openBadNews} onClose={() => setOpenBadNews(false)} />
     </div>
   );
 }

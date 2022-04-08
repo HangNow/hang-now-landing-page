@@ -1,8 +1,10 @@
 import { TextField, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Contact() {
   const [success, setSuccess] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     if (window.location.search.includes('success=true')) {
@@ -10,20 +12,21 @@ export default function Contact() {
     }
   }, []);
 
+  const onClickTitle = () => {
+    router.push('/');
+  };
+
   return (
     <div className="iphone-11-pro-x-1 flex-col-hstart-vstart clip-contents">
       <div className="header flex-row-vcenter-hsb">
-        <p className="txt-862">
+        <p className="txt-862" onClick={onClickTitle}>
           Hang<span className="txt-8622">Now!</span>
         </p>
-        <div className="frame-49220 flex-row-vcenter-hcenter">
-          <button className="button-join flex-row-vcenter-hcenter clip-contents">
-            <span className="txt-860">Login</span>
-          </button>
-        </div>
       </div>
-      <Typography sx={{ mb: 2 }} variant="h4">
-        Inscrit toi!
+      <Typography variant="h4">Inscris toi!</Typography>
+      <Typography sx={{ mb: 2 }}>
+        Afin de rentrer en communication avec l'organisateur, nous avons besoin de
+        tes coordonnées.
       </Typography>
       <form
         className="contact-form"
@@ -33,7 +36,14 @@ export default function Contact() {
         data-netlify="true"
       >
         <input type="hidden" name="form-name" value="contact" />
-        <TextField fullWidth id="name" name="name" type="text" label="Prénom" />
+        <TextField
+          color="primary"
+          fullWidth
+          id="name"
+          name="name"
+          type="text"
+          label="Prénom"
+        />
         <TextField fullWidth id="email" name="email" type="text" label="Email" />
         <button
           type="submit"

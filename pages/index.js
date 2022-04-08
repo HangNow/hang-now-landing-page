@@ -33,7 +33,7 @@ export default function Home() {
       </div>
       <div className="frame-49223 flex-col-hstart-vstart">
         <Typography variant="h4">
-          Fais des rencontres sans prises de tête en LIVE
+          Des rencontres instantanées !
         </Typography>
         <div id="summary" className="frame-49221 flex-row-vstart-hstart">
           <ul className="txt-834">

@@ -38,12 +38,12 @@ export default function badnews() {
           <LinkButton
             icon={<MailIcon sx={{ color: common.white }} />}
             link="mailto:apphangnow@gmail.com"
-            text="Envoyez nous un mail !"
+            text="Envoie nous un mail !"
           />
           <LinkButton
             icon={<FacebookIcon sx={{ color: common.white }} />}
             link="https://www.facebook.com/profile.php?id=100080164084620"
-            text="Ajoutez nous sur Facebook !"
+            text="Ajoute nous sur Facebook !"
           />
           <LinkButton
             icon={<TwitterIcon sx={{ color: common.white }} />}

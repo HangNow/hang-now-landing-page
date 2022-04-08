@@ -24,5 +24,3 @@ export default function Peoples({ pictures, current, max }) {
     </Box>
   );
 }
-
-// "https://mui.com/static/images/avatar/1.jpg" "https://mui.com/static/images/avatar/2.jpg"

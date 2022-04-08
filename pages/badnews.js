@@ -23,11 +23,7 @@ export default function badnews() {
           </a>
         </Link>
         <Typography variant="h4">Désolé, ce n'est qu'un prototype !</Typography>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zc52p61vvi-61%3A6557?alt=media&token=11605d79-4db7-4e01-a559-5f443ef666fe"
-          alt="Not Found"
-          height="230px"
-        />
+        <img src="/women-and-men.svg" alt="Not Found" height="230px" />
         Malheureusement, ce site est un prototype et n'est pas encore terminé, il ne
         sert que de test pour l'instant. Nous espérons que tu trouveras ce concept de
         site utile, n'hésite pas à nous faire part de tes remarques !

@@ -2,13 +2,9 @@ import { Typography } from '@mui/material';
 import mixpanel from 'mixpanel-browser';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-import { BadNewsModal } from '../components/BadNewsModal';
-import { LoginModal } from '../components/LoginModal';
 import Peoples from '../components/Peoples';
 
 export default function Home() {
-  const [open, setOpen] = React.useState(false);
-  const [openBadNews, setOpenBadNews] = React.useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -202,12 +198,6 @@ export default function Home() {
         />
         <Typography>©HangNow 2022</Typography>
       </div>
-      <LoginModal
-        open={open}
-        onClose={() => setOpen(false)}
-        onSuccess={() => setOpenBadNews(true)}
-      />
-      <BadNewsModal open={openBadNews} onClose={() => setOpenBadNews(false)} />
     </div>
   );
 }

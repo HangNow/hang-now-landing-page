@@ -16,6 +16,8 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>HangNow</title>
+        {/* setup the favicon */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />

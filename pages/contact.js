@@ -1,6 +1,7 @@
 import { TextField, Typography } from '@mui/material';
 import React from 'react';
 import { useRouter } from 'next/router';
+import { Box } from '@mui/system';
 
 export default function Contact() {
   const router = useRouter();
@@ -16,17 +17,21 @@ export default function Contact() {
           Hang<span className="txt-8622">Now!</span>
         </p>
       </div>
-      <img
-        src="/women-and-men.svg"
-        alt="Women and men"
-        height="230px"
-        className="freepik-characters-inject-37"
-      />
-      <Typography variant="h4">Inscris toi!</Typography>
-      <Typography sx={{ mb: 2 }}>
-        Afin de rentrer en communication avec l'organisateur, nous avons besoin de
-        tes coordonnées.
-      </Typography>
+      <Box sx={{ display: 'flex' }}>
+        <Box>
+          <Typography variant="h4">Inscris toi!</Typography>
+          <Typography sx={{ mb: 2 }}>
+            Afin de rentrer en communication avec l'organisateur, nous avons besoin
+            de tes coordonnées.
+          </Typography>
+        </Box>
+        <img
+          src="/women-and-men.svg"
+          alt="Women and men"
+          height="230px"
+          className="freepik-characters-inject-37"
+        />
+      </Box>
       <form
         className="contact-form"
         name="contact"

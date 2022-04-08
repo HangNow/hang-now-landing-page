@@ -23,10 +23,55 @@ export default function badnews() {
           </a>
         </Link>
         <Typography variant="h4">Désolé, ce n'est qu'un prototype !</Typography>
-        <img src="/women-and-men.svg" alt="Not Found" height="230px" />
-        Malheureusement, ce site est un prototype et n'est pas encore terminé, il ne
-        sert que de test pour l'instant. Nous espérons que tu trouveras ce concept de
-        site utile, n'hésite pas à nous faire part de tes remarques !
+        <Box
+          sx={{
+            display: 'flex',
+          }}
+        >
+          <Box>
+            <Typography>
+              Malheureusement, ce site est un prototype et n'est pas encore terminé,
+              il ne sert que de test pour l'instant. Nous espérons que tu trouveras
+              ce concept de site utile, n'hésite pas à nous faire part de tes
+              remarques !
+            </Typography>
+            <Typography>
+              Mais on t'invite à venir dans nous rencontrer ici ⬇️
+            </Typography>
+          </Box>
+          <img src="/women-and-men.svg" alt="Not Found" height="230px" />
+        </Box>
+        <div className="eventcard flex-col-hstart-vstart">
+          <div className="image-with-label">
+            <div className="badgetype flex-row-vstart-hstart"></div>
+          </div>
+          <div className="container flex-col-hstart-vstart">
+            <Typography variant="h5">
+              Pour te consoler, viens boire une bière avec nous ! 🍻
+            </Typography>
+            <div className="infos flex-row-vcenter-hsb">
+              <div className="frame-49220 flex-row-vcenter-hcenter">
+                <img
+                  src="/map.svg"
+                  alt="Map icon"
+                  className="location-pin-24-outline"
+                />
+                <Typography>25 avril au Bulldog à Lausanne FLON</Typography>
+              </div>
+            </div>
+            <div className="tags flex-row-vcenter-hcenter">
+              <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+                <p className="txt-121">👓 Chill</p>
+              </div>
+              <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+                <p className="txt-121">🍺 Beer</p>
+              </div>
+              <div className="badge-3 flex-row-vcenter-hcenter clip-contents">
+                <p className="txt-121">🍸 Bar</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <Box
           display="flex"
           flexDirection="column"

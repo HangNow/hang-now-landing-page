@@ -12,17 +12,13 @@ a {
 }
 
 * {
-<<<<<<< HEAD
 	box-sizing: border-box;
-=======
-  box-sizing: border-box;
 
-  --primary-color: #ff8e3c;
+	--primary-color: #ff8e3c;
 }
 
 body {
-  background-color: #eff0f3;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
+	background-color: #eff0f3;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=M PLUS 2:wght@800&display=swap');
@@ -86,16 +82,16 @@ p {
 }
 
 .iphone-11-pro-x-1 {
-  margin: auto;
-  padding: 12px;
-  max-width: 420px;
-  box-sizing: border-box;
+	margin: auto;
+	padding: 12px;
+	max-width: 420px;
+	box-sizing: border-box;
 }
 
 .header {
-  margin-bottom: 24px;
-  box-sizing: border-box;
-  width: 100%;
+	margin-bottom: 24px;
+	box-sizing: border-box;
+	width: 100%;
 }
 
 .txt-862 {
@@ -109,11 +105,7 @@ p {
 }
 
 .txt-8622 {
-<<<<<<< HEAD
-	color: rgba(249, 115, 22, 1);
-=======
-  color: var(--primary-color);
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
+	color: var(--primary-color);
 }
 
 .frame-49220 {
@@ -135,21 +127,12 @@ p {
 }
 
 .txt-883 {
-<<<<<<< HEAD
 	font-size: 14px;
 	font-family: Poppins, sans-serif;
 	font-weight: 500;
 	line-height: 143%;
-	color: rgba(249, 115, 22, 1);
+	color: var(--primary-color);
 	word-wrap: break-word;
-=======
-  font-size: 14px;
-  font-family: Poppins, sans-serif;
-  font-weight: 500;
-  line-height: 143%;
-  color: var(--primary-color);
-  word-wrap: break-word;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .frame-49223 {
@@ -211,21 +194,12 @@ p {
 }
 
 .badge-1 {
-<<<<<<< HEAD
 	padding: 1px 7px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	height: 100%;
-=======
-  padding: 1px 7px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  height: 100%;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .txt-655 {
@@ -321,21 +295,12 @@ p {
 }
 
 .txt-121 {
-<<<<<<< HEAD
 	font-size: 12px;
 	font-family: Poppins, sans-serif;
 	font-weight: 500;
 	line-height: 150%;
-	color: rgba(249, 115, 22, 1);
+	color: var(--primary-color);
 	word-wrap: break-word;
-=======
-  font-size: 12px;
-  font-family: Poppins, sans-serif;
-  font-weight: 500;
-  line-height: 150%;
-  color: var(--primary-color);
-  word-wrap: break-word;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .badge-4 {
@@ -348,12 +313,11 @@ p {
 }
 
 .txt-121 {
-<<<<<<< HEAD
 	font-size: 12px;
 	font-family: Poppins, sans-serif;
 	font-weight: 500;
 	line-height: 150%;
-	color: rgba(249, 115, 22, 1);
+	color: var(--primary-color);
 	word-wrap: break-word;
 }
 
@@ -361,30 +325,22 @@ p {
 	padding: 12px 16px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	width: 100%;
 	border: none;
 	cursor: pointer;
-=======
-  font-size: 12px;
-  font-family: Poppins, sans-serif;
-  font-weight: 500;
-  line-height: 150%;
-  color: var(--primary-color);
-  word-wrap: break-word;
 }
 
-.button-join {
-  padding: 12px 16px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  width: 100%;
-  border: none;
-  cursor: pointer;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
+.button-link {
+	padding: 8px 8px;
+	box-sizing: border-box;
+	border-radius: 36px;
+	background-color: var(--primary-color);
+	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+	width: 100%;
+	border: none;
+	cursor: pointer;
 }
 
 .button-join:active {
@@ -425,21 +381,12 @@ p {
 }
 
 .badge-1 {
-<<<<<<< HEAD
 	padding: 1px 7px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	height: 100%;
-=======
-  padding: 1px 7px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  height: 100%;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .txt-655 {
@@ -545,21 +492,12 @@ p {
 }
 
 .txt-121 {
-<<<<<<< HEAD
 	font-size: 0.8rem;
 	font-family: Poppins, sans-serif;
 	font-weight: 500;
 	line-height: 150%;
-	color: rgba(249, 115, 22, 1);
+	color: var(--primary-color);
 	word-wrap: break-word;
-=======
-  font-size: 0.8rem;
-  font-family: Poppins, sans-serif;
-  font-weight: 500;
-  line-height: 150%;
-  color: var(--primary-color);
-  word-wrap: break-word;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .badge-4 {
@@ -572,21 +510,12 @@ p {
 }
 
 .button-1 {
-<<<<<<< HEAD
 	padding: 7px 15px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	width: 100%;
-=======
-  padding: 7px 15px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  width: 100%;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .txt-860 {
@@ -624,21 +553,12 @@ p {
 }
 
 .badge-1 {
-<<<<<<< HEAD
 	padding: 1px 7px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	height: 100%;
-=======
-  padding: 1px 7px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  height: 100%;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .txt-655 {
@@ -743,21 +663,12 @@ p {
 }
 
 .button-1 {
-<<<<<<< HEAD
 	padding: 7px 15px;
 	box-sizing: border-box;
 	border-radius: 36px;
-	background-color: rgba(249, 115, 22, 1);
+	background-color: var(--primary-color);
 	box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
 	width: 100%;
-=======
-  padding: 7px 15px;
-  box-sizing: border-box;
-  border-radius: 36px;
-  background-color: var(--primary-color);
-  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
-  width: 100%;
->>>>>>> daa9c77159c71120f0a046d04be9bce306d8f5ca
 }
 
 .txt-860 {

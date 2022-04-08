@@ -4,6 +4,8 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { useRouter } from 'next/router';
 import { Box, Typography } from '@mui/material';
+import { LinkButton } from '../components/LinkButton';
+import { common } from '@mui/material/colors';
 
 export default function badnews() {
 	const router = useRouter();
@@ -23,7 +25,7 @@ export default function badnews() {
 				<img
 					src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/zc52p61vvi-61%3A6557?alt=media&token=11605d79-4db7-4e01-a559-5f443ef666fe"
 					alt="Not Found"
-					className="freepik-characters-inject-49"
+					height="230px"
 				/>
 				Malheureusement, ce site est un prototype et n'est pas encore terminé, il ne
 				sert que de test pour l'instant. Nous espérons que tu trouveras ce concept de
@@ -33,37 +35,25 @@ export default function badnews() {
 					flexDirection="column"
 					justifyContent="center"
 					paddingTop={1}
+					gap={1}
+					width="100%"
 				>
-					<Box display="flex" gap={1}>
-						<MailIcon />
-						<span>
-							<a href="mailto:apphangnow@gmail.com">apphangnow@gmail.com</a>
-						</span>
-					</Box>
-					<Box display="flex" gap={1}>
-						<FacebookIcon />
-						<span>
-							<a href="https://www.facebook.com/profile.php?id=100080164084620">
-								HangNow App
-							</a>
-						</span>
-					</Box>
-
-					<Box display="flex" gap={1}>
-						<TwitterIcon />
-						<span>
-							<a href="https://twitter.com/HangNowApp">@HangNowApp</a>
-						</span>
-					</Box>
+					<LinkButton
+						icon={<MailIcon sx={{ color: common.white }} />}
+						link="mailto:apphangnow@gmail.com"
+						text="Envoyez nous un mail !"
+					/>
+					<LinkButton
+						icon={<FacebookIcon sx={{ color: common.white }} />}
+						link="https://www.facebook.com/profile.php?id=100080164084620"
+						text="Ajoutez nous sur Facebook !"
+					/>
+					<LinkButton
+						icon={<TwitterIcon sx={{ color: common.white }} />}
+						link="https://twitter.com/HangNowApp"
+						text="Follow nous sur Twitter !"
+					/>
 				</Box>
-				{/* <button
-					onClick={() => {
-						router.push('/');
-					}}
-					className="button-join flex-row-vcenter-hcenter clip-contents"
-				>
-					<span className="txt-860">Retourner à la maquette !</span>
-				</button> */}
 			</Box>
 		</div>
 	);

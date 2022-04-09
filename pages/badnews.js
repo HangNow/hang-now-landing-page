@@ -18,9 +18,9 @@ export default function badnews() {
         gap={2}
       >
         <Link href="/" passHref>
-          <a className="txt-862">
+          <a><p className="txt-862">
             Hang<span className="txt-8622">Now!</span>
-          </a>
+          </p></a>
         </Link>
         <Typography variant="h4">Désolé, ce n'est qu'un prototype !</Typography>
         <Box
@@ -30,13 +30,11 @@ export default function badnews() {
         >
           <Box>
             <Typography>
-              Malheureusement, ce site est un prototype et n'est pas encore terminé,
-              il ne sert que de test pour l'instant. Nous espérons que tu trouveras
-              ce concept de site utile, n'hésite pas à nous faire part de tes
-              remarques !
+              Malheureusement, il ne s'agit que d'un test pour le moment. On espère néanmoins que le concept te plait, n'hésite pas à nous
+              faire part de ton avis/remarques par mail ou sur les réseaux ! 😉
             </Typography>
             <Typography>
-              Mais on t'invite à venir dans nous rencontrer ici ⬇️
+              En attendant, on t'invite tout de même à venir nous rencontrer ici ⬇️
             </Typography>
           </Box>
           <img src="/women-and-men.svg" alt="Not Found" height="230px" />
@@ -56,7 +54,7 @@ export default function badnews() {
                   alt="Map icon"
                   className="location-pin-24-outline"
                 />
-                <Typography>25 avril au Bulldog à Lausanne FLON</Typography>
+                <Typography>25 avril au Bulldog à Lausanne-Flon</Typography>
               </div>
             </div>
             <div className="tags flex-row-vcenter-hcenter">
@@ -83,17 +81,17 @@ export default function badnews() {
           <LinkButton
             icon={<MailIcon sx={{ color: common.white }} />}
             link="mailto:apphangnow@gmail.com"
-            text="Envoie nous un mail !"
+            text="Nous contacter par mail"
           />
           <LinkButton
             icon={<FacebookIcon sx={{ color: common.white }} />}
-            link="https://www.facebook.com/profile.php?id=100080164084620"
-            text="Ajoute nous sur Facebook !"
+            link="https://www.facebook.com/HangNow-106397958700765"
+            text="Nous suivre sur Facebook"
           />
           <LinkButton
             icon={<TwitterIcon sx={{ color: common.white }} />}
             link="https://twitter.com/HangNowApp"
-            text="Follow nous sur Twitter !"
+            text="Nous follow sur Twitter"
           />
         </Box>
       </Box>

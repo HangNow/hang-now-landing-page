@@ -18,9 +18,11 @@ export default function badnews() {
         gap={2}
       >
         <Link href="/" passHref>
-          <a><p className="txt-862">
-            Hang<span className="txt-8622">Now!</span>
-          </p></a>
+          <a>
+            <p className="txt-862">
+              Hang<span className="txt-8622">Now!</span>
+            </p>
+          </a>
         </Link>
         <Typography variant="h4">Désolé, ce n'est qu'un prototype !</Typography>
         <Box
@@ -30,8 +32,9 @@ export default function badnews() {
         >
           <Box>
             <Typography>
-              Malheureusement, il ne s'agit que d'un test pour le moment. On espère néanmoins que le concept te plait, n'hésite pas à nous
-              faire part de ton avis/remarques par mail ou sur les réseaux ! 😉
+              Malheureusement, il ne s'agit que d'un test pour le moment. On espère
+              néanmoins que le concept te plait, n'hésite pas à nous faire part de
+              ton avis/remarques par mail ou sur les réseaux ! 😉
             </Typography>
             <Typography>
               En attendant, on t'invite tout de même à venir nous rencontrer ici ⬇️
@@ -54,7 +57,7 @@ export default function badnews() {
                   alt="Map icon"
                   className="location-pin-24-outline"
                 />
-                <Typography>25 avril au Bulldog à Lausanne-Flon</Typography>
+                <Typography>12 avril au carré à Vevey</Typography>
               </div>
             </div>
             <div className="tags flex-row-vcenter-hcenter">
@@ -68,6 +71,24 @@ export default function badnews() {
                 <p className="txt-121">🍸 Bar</p>
               </div>
             </div>
+            <form
+              method="POST"
+              action="success"
+              className="contact-form"
+              name="join-event"
+              data-netlify="true"
+            >
+              <input type="hidden" name="form-name" value="join-event" />
+              <input type="hidden" name="from" value="badnews" />
+              <button
+                type="submit"
+                className="button-join flex-row-vcenter-hcenter clip-contents"
+              >
+                <Typography component="span" color="white">
+                  Je viens
+                </Typography>
+              </button>
+            </form>
           </div>
         </div>
         <Box

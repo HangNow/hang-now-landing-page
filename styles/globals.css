@@ -714,11 +714,11 @@ ul {
 }
 
 a:link {
-	color: #f97316;
+	color: var(--primary-color);
 }
 
 a:visited {
-	color: #e56306;
+	color: var(--primary-color-hover);
 }
 
 .contact-form {
